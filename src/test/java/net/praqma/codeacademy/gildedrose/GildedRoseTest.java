@@ -1,6 +1,3 @@
-# Gilded Rose Test 
-# This is the test file
-
 package net.praqma.codeacademy.gildedrose;
 
 import static org.junit.Assert.*;
