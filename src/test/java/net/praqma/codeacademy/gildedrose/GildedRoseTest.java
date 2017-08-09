@@ -1,4 +1,5 @@
-# Gilded Rose Test
+# Gilded Rose Test 
+# This is the test file
 
 package net.praqma.codeacademy.gildedrose;
 
