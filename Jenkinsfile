@@ -17,6 +17,6 @@ node {
         sh 'docker run -i --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven maven:3-jdk-8 mvn site'
         archive 'target/site/**/*'
         archive 'target/gildedrose-*.jar'
-        //  archive 'target/site/**/*'
+        //  archive 'target/site/**/*' // backs up the whole target site with the gildedrose jar as well
    }
 }
